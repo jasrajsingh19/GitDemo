@@ -28,7 +28,7 @@ public class StandAloneTest extends BaseTest{
 	public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException {
 		
 		
-		String countryName = "india";
+		String countryName = "India";
 		
 		//login to application
 		ProductCatalogue productCatalogue = landingPage.loginToApplication(input.get("email"), input.get("password"));
